@@ -37,9 +37,9 @@ tlab-budgeted-identity/
 </pre>
 
 *   [`main.tf`](./main.tf) → Contains the entire declarative HCL file configuring the provider, programmatic budget, S3 storage vault, custom IAM role with least-privilege S3 permissions, and the EC2 app server.
-*   `screenshots/build_success.png` → Screen capture showing the terminal after successfully initializing and executing the infrastructure build.
-*   `screenshots/security_audit.png` → Visual verification of the AWS Web Console proving the instance is live and utilizing the `Titan-EC2-Vault-Role`.
-*   `screenshots/destroy_verification.png` → Critical proof showing the successful teardown of all resources to avoid any billing leaks.
+*   [`build_success.png`](./screenshots/build_success.png) → Screen capture showing the terminal after successfully initializing and executing the infrastructure build.
+*   [`security_audit.png`](./screenshots/security_audit.png) → Visual verification of the AWS Web Console proving the instance is live and utilizing the `Titan-EC2-Vault-Role`.
+*   [`destroy_verification.png`](./screenshots/destroy_verification.png) → Critical proof showing the successful teardown of all resources to avoid any billing leaks.
 
 ---
 
