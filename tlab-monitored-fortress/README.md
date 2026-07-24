@@ -38,9 +38,9 @@ tlab-06-monitored-fortress/
 
 *   [`main.tf`](./main.tf) → Declarative HCL file defining the VPC, IGW, Subnet, Route Table, CloudWatch Log Group, VPC Flow Log engine, Zero-Inbound Security Group, and SSM-enabled EC2 instance.
 *   [`iam_provided.tf`](./iam_provided.tf) → IAM infrastructure defining trust policies and managed policy attachments for logging and Systems Manager access.
-*   `ssm_terminal_proof.png` → Full-screen capture proving out-of-band interactive shell connection via AWS Systems Manager Session Manager (`ssm-user`).
-*   `cloudwatch_flow_logs.png` → Verification of real-time network traffic logs being published directly to CloudWatch.
-*   `destroy_verification.png` → Proof of successful resource teardown confirming all created AWS assets were safely destroyed.
+*   [`ssm_terminal_proof.png`](./screenshots/ssm_terminal_proof.png) → Full-screen capture proving out-of-band interactive shell connection via AWS Systems Manager Session Manager (`ssm-user`).
+*   [`cloudwatch_flow_logs.png`](./screenshots/cloudwatch_flow_logs.png) → Verification of real-time network traffic logs being published directly to CloudWatch.
+*   [`destroy_verification.png`](./screenshots/destroy_verification.png) → Proof of successful resource teardown confirming all created AWS assets were safely destroyed.
 
 ---
 
